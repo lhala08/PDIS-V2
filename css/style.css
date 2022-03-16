@@ -41,55 +41,53 @@ body {
 #ais {
     font-family: 'Roboto', sans-serif !important;
     justify-content: center !important;
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
     color: #696969;
-    margin-top: 0.4em !important;
+    margin-top: 3px !important;
 }
 
 #lms {
     font-family: 'Roboto', sans-serif !important;
-    font-weight: 600 !important;
+    /* font-weight: 600 !important; */
     justify-content: center !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #FFDF00 !important;
 }
 
 #lr {
     font-family: 'Roboto', sans-serif !important;
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
     justify-content: center !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #004E00 !important;
 }
 
 #ipdis {
     font-family: 'Roboto', sans-serif !important;
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
     justify-content: center !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #00008B !important;
 }
 
 #pris {
     font-family: 'Roboto', sans-serif !important;
     justify-content: center !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #0096FF;
 }
 
 #fmis {
     font-family: 'Roboto', sans-serif !important;
     justify-content: center !important;
-    font-weight: 700 !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #4B0082
 }
 
 #me {
     font-family: 'Roboto', sans-serif !important;
     justify-content: center !important;
-    font-weight: 700 !important;
-    margin-top: 0.5em !important;
+    margin-top: 3px !important;
     color: #7B3F00;
 }
 
