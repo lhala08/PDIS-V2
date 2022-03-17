@@ -1,4 +1,11 @@
 $(document).ready(function() {
+
+    $('.hex-wrap').click(function() {
+        let $link = $(this).attr("data-url")
+        return false;
+
+    });
+
     function hex_initial_animation() {
         $(".hex-wrap,.hover-notify").velocity("transition.expandIn", { stagger: 150 });
         $(".hex-wrap").velocity("callout.pulse");
