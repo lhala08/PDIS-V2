@@ -3,7 +3,6 @@ $(document).ready(function() {
     $('.hex-wrap').click(function() {
         let $link = $(this).attr("data-url")
         return false;
-
     });
 
     function hex_initial_animation() {
@@ -21,10 +20,12 @@ $(document).ready(function() {
 
     function myStopFunction() {
         $(".hover-notify").velocity('stop', true).velocity("fadeOut");
+
         clearInterval(hoverdetect);
     }
 
     $(".hex-init").mouseenter(function() {
+
 
         myStopFunction();
 
@@ -50,4 +51,87 @@ $(document).ready(function() {
     }).mouseleave(function() {
         $('.hexactive').velocity('stop', true).velocity('reverse').removeClass('hexactive');
     });
+
+});
+$(".ais").mouseenter(function() {
+    const hexagon = document.querySelector('#ais');
+    hexagon.style.cssText = 'color:#696969 !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".ais").mouseleave(function() {
+    const hexagon = document.querySelector('#ais');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+
+
+$(".ipdis").mouseenter(function() {
+    const hexagon = document.querySelector('#ipdis');
+    hexagon.style.cssText = 'color:#00008B !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".ipdis").mouseleave(function() {
+    const hexagon = document.querySelector('#ipdis');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+
+$(".pris").mouseenter(function() {
+    const hexagon = document.querySelector('#pris');
+    hexagon.style.cssText = 'color:#0096FF !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".pris").mouseleave(function() {
+    const hexagon = document.querySelector('#pris');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+
+
+$(".lms").mouseenter(function() {
+    const hexagon = document.querySelector('#lms');
+    hexagon.style.cssText = 'color:#FFDF00 !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".lms").mouseleave(function() {
+    const hexagon = document.querySelector('#lms');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+$(".lr").mouseenter(function() {
+    const hexagon = document.querySelector('#lr');
+    hexagon.style.cssText = 'color:#004E00 !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".lr").mouseleave(function() {
+    const hexagon = document.querySelector('#lr');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+$(".fmis").mouseenter(function() {
+    const hexagon = document.querySelector('#fmis');
+    hexagon.style.cssText = 'color:#4B0082 !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".fmis").mouseleave(function() {
+    const hexagon = document.querySelector('#fmis');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
+});
+$(".me").mouseenter(function() {
+    const hexagon = document.querySelector('#me');
+    hexagon.style.cssText = 'color:#7B3F00 !important;font-size:2rem;font-weight:600 !important;'
+
+});
+
+$(".me").mouseleave(function() {
+    const hexagon = document.querySelector('#me');
+    hexagon.style.cssText = 'color:black !important;font-size:22px;font-weight:200 !important;'
+
 });
