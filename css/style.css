@@ -16,7 +16,8 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
-    box-shadow: inset 0px 0px 100px 0px #6aaae6;
+    /* box-shadow: inset 0px 0px 100px 0px #B2B2FF; */
+    background-color: transparent;
     overflow-y: scroll;
 }
 
@@ -123,10 +124,12 @@ section.intro {
                                             Hexagon Intro Blocks
 ********************************************************************************************************************************/
 
-.navs {
-    -webkit-box-shadow: inset 100% 10% 50px 100px #6aaae6;
-    box-shadow: inset 100% 10% 50px 100px 100px#6aaae6;
-}
+
+/* .navs {
+    -webkit-box-shadow: inset 100% 10% 50px 70px #6aaae6;
+    box-shadow: inset 100% 10% 50px 100px 70px#6aaae6;
+    background-color: transparent;
+} */
 
 .logo {
     margin-top: .5rem;
@@ -154,6 +157,7 @@ section.intro {
     font-weight: 200 !important;
     color: #343d52;
     margin-top: 3px !important;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #lms {
@@ -162,6 +166,7 @@ section.intro {
     justify-content: center !important;
     margin-top: 3px !important;
     color: #343d52 !important;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #lr {
@@ -170,6 +175,7 @@ section.intro {
     justify-content: center !important;
     margin-top: 3px !important;
     color: #343d52 !important;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #ipdis {
@@ -178,6 +184,7 @@ section.intro {
     justify-content: center !important;
     margin-top: 3px !important;
     color: #343d52 !important;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #pris {
@@ -186,6 +193,7 @@ section.intro {
     font-weight: 200 !important;
     margin-top: 3px !important;
     color: #343d52;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #fmis {
@@ -194,6 +202,7 @@ section.intro {
     font-weight: 200 !important;
     margin-top: 3px !important;
     color: #343d52;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 #me {
@@ -202,6 +211,7 @@ section.intro {
     font-weight: 200 !important;
     margin-top: 3px !important;
     color: #343d52;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 .intro-block {
@@ -225,7 +235,6 @@ section.intro {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-top: -15%;
 }
 
 .hoverblock {
@@ -299,6 +308,7 @@ p.code-title {
     position: relative;
     font-size: 1.8rem;
     font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 .desc-active::after {
