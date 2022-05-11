@@ -132,14 +132,12 @@ section.intro {
 } */
 
 .logo {
-    margin-top: .5rem;
     width: 80px;
     height: 80px;
     margin-left: 3rem
 }
 
 .neap {
-    margin-top: .15rem;
     width: 95px;
     height: 95px;
     margin-left: .15rem;
