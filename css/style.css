@@ -132,15 +132,24 @@ section.intro {
 } */
 
 .logo {
+    margin-top: .5rem;
     width: 80px;
     height: 80px;
-    margin-left: 3rem
+    margin-left: 10%;
 }
 
 .neap {
     width: 95px;
     height: 95px;
-    margin-left: .15rem;
+    margin-left: .5rem;
+}
+
+.logo1 {
+    margin-top: .25rem;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: .5%;
 }
 
 .ol {
