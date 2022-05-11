@@ -133,22 +133,22 @@ section.intro {
 
 .logo {
     margin-top: .5rem;
-    width: 75px;
-    height: 70px;
-    margin-left: 3rem;
+    width: 80px;
+    height: 80px;
+    margin-left: 3rem
 }
 
 .neap {
-    margin-top: .75rem;
-    width: 70px;
-    height: 65px;
-    margin-left: 1rem;
+    margin-top: .15rem;
+    width: 95px;
+    height: 95px;
+    margin-left: .15rem;
 }
 
 .ol {
     list-style: none;
     display: flex;
-    margin-bottom: px;
+    margin-bottom: 0px;
 }
 
 #ais {
