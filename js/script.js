@@ -1,9 +1,11 @@
 $(document).ready(function() {
-
     $('.hex-wrap').click(function() {
         let $link = $(this).attr("data-url")
-        return false;
+        window.location.replace($link);
     });
+
+    $('.pdis-desc').addClass('desc-active');
+    $('.code-descriptopn > div, .desc-active').children().velocity('stop', true).velocity("transition.slideRightBigIn", { stagger: 300 })
 
     function hex_initial_animation() {
         $(".hex-wrap,.hover-notify").velocity("transition.expandIn", { stagger: 150 });
@@ -53,6 +55,8 @@ $(document).ready(function() {
     });
 
 });
+
+
 $(".ais").mouseenter(function() {
     const hexagon = document.querySelector('#ais');
     hexagon.style.cssText = 'color:#696969 !important;font-size:2rem;font-weight:600 !important;'

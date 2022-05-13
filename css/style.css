@@ -120,42 +120,35 @@ section.intro {
 }
 
 
-/********************************************************************************************************************************
-                                            Hexagon Intro Blocks
-********************************************************************************************************************************/
-
-
-/* .navs {
-    -webkit-box-shadow: inset 100% 10% 50px 70px #6aaae6;
-    box-shadow: inset 100% 10% 50px 100px 70px#6aaae6;
-    background-color: transparent;
-} */
+/* Hexagon Intro Blocks */
 
 .logo {
     margin-top: .5rem;
     width: 80px;
     height: 80px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .neap {
-    width: 95px;
-    height: 95px;
-    margin-left: .5rem;
-}
-
-.logo1 {
-    margin-top: .25rem;
-    width: 100px;
-    height: 80px;
-    position: absolute;
-    right: .5%;
+    width: 78px;
+    height: 78px;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
 }
 
 .ol {
     list-style: none;
     display: flex;
     margin-bottom: 0px;
+}
+
+#pdis {
+    font-family: 'Nunito', sans-serif !important;
+    justify-content: center !important;
+    font-weight: 400 !important;
+    color: #00008B;
+    margin-top: 3px !important;
+    /* text-shadow: 1px 1px 1px rgba(150, 150, 150, 1); */
 }
 
 #ais {
@@ -327,6 +320,13 @@ p.code-title {
     content: "";
     opacity: .2;
     z-index: -1;
+}
+
+.pdis-desc.desc-active::after {
+    background: url(../image/logo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
 }
 
 .ais-desc.desc-active::after {
