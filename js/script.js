@@ -56,7 +56,6 @@ $(document).ready(function() {
 
 });
 
-
 $(".ais").mouseenter(function() {
     const hexagon = document.querySelector('#ais');
     hexagon.style.cssText = 'color:#696969 !important;font-size:2rem;font-weight:600 !important;'
