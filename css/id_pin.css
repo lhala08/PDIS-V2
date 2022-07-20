@@ -118,10 +118,14 @@ p {
     z-index: 1;
 }
 
-.idn-container, .intro, .idn-card {
+.idn-container, .intro .idn-inputs{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.idn-container{
+    padding-top: 100px ;
 }
 .idn-card{
     flex-direction: column;
@@ -129,7 +133,16 @@ p {
     height: 350px;
     background-color: #B2B2FF;
     border-radius: 10px;
-    
+}
+
+.idn-inputs{
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.margins-1{
+    margin-top: 20px;
+    width: 40px;
 }
 .label{
     align-items: flex-start;
@@ -139,8 +152,6 @@ p {
     border-top-right-radius: 10px;
     text-align: center;
 }
-
-
 
 
 
